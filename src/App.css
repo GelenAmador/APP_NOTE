@@ -1,0 +1,93 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: center;
+  color: #333333;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.note {
+  display: flex;
+  width: 343px;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: start;
+  padding: 10px;
+  gap: 16px;
+  border-radius: 16px;
+  border: 2px solid #4F4F4F;
+}
+
+.note-list {
+  max-width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 343px; 
+  height: 320px; 
+  padding: 16px;
+  gap: 4px;
+  border-radius: 16px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.botonCrear {
+  width: 343px; 
+  height: 45px; 
+  padding: 8px 16px; 
+  font-size: 19px;
+  gap: 8px; 
+  border-radius: 16px; 
+  opacity: 1; 
+  background: #4F4F4F; 
+  color: white;
+  border: none; 
+  cursor: pointer; 
+  transition: background 0.3s; 
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.botonDelete{
+  width: 85px;
+  height: 35px;
+  padding: 1px;
+  gap: 8px;
+  border-radius: 16px;
+  background: #E0E0E0;
+}
